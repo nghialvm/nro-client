@@ -1984,6 +1984,20 @@ namespace Mod
                 return false;
             if (SoundMn.IsDelAcc && panel.selected == Panel.strTool.Length - 1)
                 return false;
+
+            // If user clicked the "pet" entry (strings may be rearranged by mods), handle it explicitly
+            int petIndex = Array.IndexOf(Panel.strTool, mResources.pet);
+            if (petIndex >= 0 && panel.selected == petIndex)
+            {
+                try
+                {
+                    panel.doFirePet();
+                }
+                catch (Exception)
+                {
+                }
+                return true;
+            }
             if (!Char.myCharz().havePet)
             {
                 switch (panel.selected)

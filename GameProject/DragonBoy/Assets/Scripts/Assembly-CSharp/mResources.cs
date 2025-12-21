@@ -1179,7 +1179,7 @@ public class mResources
 		{
 			LoginScr.imgTitle = GameCanvas.loadImage("/mainImage/logo1.png");
 			T1.load();
-			ServerListScreen.linkweb = "http://ngocrongonline.com";
+			ServerListScreen.linkweb = "https://ngocrongonline.com";
 		}
 	}
 
