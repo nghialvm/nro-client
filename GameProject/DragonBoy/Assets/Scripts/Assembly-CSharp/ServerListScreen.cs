@@ -160,11 +160,6 @@ public class ServerListScreen : mScreen, IActionListener
 			}
 		};
 		setLinkDefault(mSystem.LANGUAGE);
-		if (!autoDeletedRMS)
-		{
-			ResetSavedServerList();
-			autoDeletedRMS = true;
-		}
 	}
 
 	public static void createDeleteRMS()

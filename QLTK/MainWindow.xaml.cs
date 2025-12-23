@@ -21,23 +21,7 @@ namespace QLTK
     {
         public static object sizeData = null;
 
-        public static List<Server> Servers { get; } =
-        [
-            new Server("Vũ trụ 1", "dragon1.teamobi.com", 14445),
-            new Server("Vũ trụ 2", "dragon2.teamobi.com", 14445),
-            new Server("Vũ trụ 3", "dragon3.teamobi.com", 14445),
-            new Server("Vũ trụ 4", "dragon4.teamobi.com", 14445),
-            new Server("Vũ trụ 5", "dragon5.teamobi.com", 14445),
-            new Server("Vũ trụ 6", "dragon6.teamobi.com", 14445),
-            new Server("Vũ trụ 7", "dragon7.teamobi.com", 14445),
-            new Server("Vũ trụ 8", "dragon10.teamobi.com", 14446),
-            new Server("Vũ trụ 9", "dragon10.teamobi.com", 14447),
-            new Server("Vũ trụ 10", "dragon10.teamobi.com", 14445),
-            new Server("Vũ trụ 11", "dragon11.teamobi.com", 14445),
-            new Server("Võ đài Liên Vũ Trụ", "dragonwar.teamobi.com", 20000),
-            new Server("Universe 1", "dragon.indonaga.com", 14445, 1),
-            new Server("Indonaga", "dragon.indonaga.com", 14446, 2),
-        ];
+        public static List<Server> Servers { get; } =[];
 
         private static object settings;
 
@@ -47,7 +31,7 @@ namespace QLTK
         static MainWindow()
         {
             Servers.AddRange(Utilities.LoadServersFromFile());
-            Servers.Add(new Server("nro", "127.0.0.1", 14445));
+            Servers.Add(new Server("KhanhDTK", "160.30.160.184", 14445));
             Servers.Add(new Server("KhanhDTK", "127.0.0.1", 14445));
         }
 
