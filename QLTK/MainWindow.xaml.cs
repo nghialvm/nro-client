@@ -31,8 +31,8 @@ namespace QLTK
         static MainWindow()
         {
             Servers.AddRange(Utilities.LoadServersFromFile());
-            Servers.Add(new Server("KhanhDTK", "160.30.160.184", 14445));
-            Servers.Add(new Server("KhanhDTK", "127.0.0.1", 14445));
+            Servers.Add(new Server("NRO", "160.30.160.184", 14445));
+            Servers.Add(new Server("NRO", "127.0.0.1", 14445));
         }
 
         public MainWindow()
