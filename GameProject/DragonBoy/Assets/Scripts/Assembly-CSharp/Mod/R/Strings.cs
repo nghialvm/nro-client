@@ -4,7 +4,7 @@ namespace Mod.R
 {
     internal static class Strings
     {
-        internal static readonly string DEFAULT_IP_SERVERS = "NRO:160.30.160.184:14445:0:0:0,NRO:127.0.0.1:14445:0:0:0,0,0";
+        internal static readonly string DEFAULT_IP_SERVERS = "NRO:160.30.160.184:14445:0:0:0,0,0";
         #region Fields
         internal static string communityMod = "";
         internal static string gameVersion = "";

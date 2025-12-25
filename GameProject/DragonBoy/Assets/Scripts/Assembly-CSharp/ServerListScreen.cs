@@ -34,17 +34,16 @@ public class ServerListScreen : mScreen, IActionListener
 
 	internal int lY;
 
-	public static string smartPhoneVN = "nro:127.0.0.1:14445:0:0:0,0,0";
+	public static string smartPhoneVN = "NRO:160.30.160.184:14445:0:0:0,0,0";
 
-	public static string javaVN = "nro:127.0.0.1:14445:0:0:0,0,0";
+	public static string javaVN = "NRO:160.30.160.184:14445:0:0:0,0,0";
 
-	public static string smartPhoneIn = "nro:127.0.0.1:14445:0:0:0,Naga:dragon.indonaga.com:14446:2:0:0,2,0";
+	public static string smartPhoneIn = "NRO:160.30.160.184:14445:0:0:0,0,0";
 
-	public static string javaIn = "nro:127.0.0.1:14445:0:0:0,Naga:52.74.230.22:14446:2:0:0,2,0";
+	public static string javaIn = "NRO:160.30.160.184:14445:0:0:0,0,0";
 
-	public static string smartPhoneE = "nro:127.0.0.1:14445:0:0:0,Universe 1:dragon.indonaga.com:14445:1:0:0,1,0";
-
-	public static string javaE = "nro:127.0.0.1:14445:0:0:0,Universe 1:52.74.230.22:14445:1:0:0,1,0";
+	public static string smartPhoneE = "NRO:160.30.160.184:14445:0:0:0,0,0";
+	public static string javaE = "NRO:160.30.160.184:14445:0:0:0,0,0";
 
 	public static string linkGetHost = "http://sv1.ngocrongonline.com/game/ngocrong031_t.php";
 

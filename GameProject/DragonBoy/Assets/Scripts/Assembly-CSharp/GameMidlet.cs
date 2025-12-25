@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameMidlet
 {
-	public static string IP = "112.213.94.23";
+	public static string IP = "160.30.160.184";
 
 	public static int PORT = 14445;
 
